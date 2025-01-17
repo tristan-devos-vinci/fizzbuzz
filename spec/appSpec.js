@@ -54,4 +54,9 @@ describe("A suite of test for the demo function of the main class", function() {
         const result = main.fizzBuzz(30);
         expect(result).toBe('FizzBuzz');
     });
+
+    it("should return Hello World", function() {
+        const result = main.print();
+        expect(result).toBe('Hello World');
+    });
 });

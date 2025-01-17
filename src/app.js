@@ -14,4 +14,7 @@ export class Main {
     isMultipleOfFiveAndThree(number) {
         return number % 3 === 0 && number % 5 === 0;
     }
+    print() {
+        return 'Hello World';
+    }
 }
